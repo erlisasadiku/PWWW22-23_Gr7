@@ -1,34 +1,81 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: whitesmoke;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the text decoration and color when you hover */
-  li a:hover {
-    text-decoration: underline;
-    text-decoration-color: burlywood;;
-    text-underline-offset: 5px;
-  }
-  .initial_div{
-    margin-left: 300px;
-  }
-button{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FAFAFA;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the text decoration and color when you hover */
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: burlywood;
+  ;
+  text-underline-offset: 5px;
+}
+
+.first {
+  background-color: #FAFAFA;
+}
+
+.second {
+  height: 300px;
+}
+
+.initial_div {
+  margin-left: 300px;
+  display: inline-block;
+  height: 300px;
+}
+
+.secondary_div {
+  display: inline-block;
+
+}
+
+.div1pics {
+  display: inline-block;
+}
+
+.div2pics {
+  margin-left: 300px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.div3pics {
+  padding: 10px;
+  width: 500px;
+  display: inline-block;
+}
+
+.first button {
   border-radius: 40px;
-  height: 70px;
-  width: 170px;
+  height: 50px;
+  width: 150px;
+}
+
+.second button {
+  border-radius: 40px;
+  height: 50px;
+  width: 115px;
+}
+
+.third button {
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+
 }
