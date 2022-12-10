@@ -28,6 +28,33 @@ li a:hover {
   text-decoration-thickness: 2px;
 }
 
+.startsfromhere{
+  color: #C9A488;
+  margin-top: -80px;
+  font-weight: 300;
+}
+
+.welcome{
+font-family: 'Oswald';
+font-weight: 300;
+font-size: 24px;
+color: #C9A488;
+}
+
+.dance{
+font-family: 'Oswald';
+font-weight: 500;
+font-size: 50;
+margin-left: 187px;
+color: black;
+}
+
+.behind{
+  font-family: 'Lato';
+  font-size: 50;
+  color: #C1BEBB;
+}
+
 .menu{
 width: 626;
 height: 24;
@@ -37,11 +64,24 @@ letter-spacing: 50;
 .logo{
   float: left;
   margin-left: 250px;
+  margin-top: -10px;
 }
 
 .icons{
   margin-right: 250px;
-  
+  height: 10px;
+}
+
+.hamburger{
+  margin-top: 10px;
+}
+
+.shopping{
+  margin-top: 10px;
+}
+
+.search{
+  margin-top: 10px;
 }
 
 .first {
@@ -53,19 +93,25 @@ letter-spacing: 50;
 }
 
 .initial_div {
+  font-family: 'Oswald';
   margin-left: 300px;
   display: inline-block;
   font-size: 24px;
 }
 
-h1{
-  font-family: 'Oswald';
-  line-height: 60px;
+.secondary_div {
+  margin-left: 900px;
+  display: inline-block;
+  margin-top: -600px;
+  line-height: 30px; 
 }
 
-.secondary_div {
+.third{
+  font-family: 'Oswald';
+  margin-left: 300px;
   display: inline-block;
-
+  font-size: 18px;
+  margin-top: 500px;
 }
 
 .div1pics {
@@ -89,6 +135,8 @@ button{
   font-size: 15px;
   height: 60px;
   border-radius: 40px;
+  text-align: center;
+  border: 2px solid #C9A488;
 }
 
 .first button {
@@ -109,9 +157,7 @@ li {
   font-size: 18;
 }
 
-
 footer{
-  margin: 0;
-  padding: 0%;
-  background-color: bisque;
+  background-color: #FAFAFA;
+  text-align: center;
 }
