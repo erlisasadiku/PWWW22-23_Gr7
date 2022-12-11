@@ -30,9 +30,10 @@ li a:hover {
 
 .startsfromhere{
   color: #C9A488;
-  margin-top: -80px;
+  margin-top: -90px;
   margin-bottom: 80px;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .welcome{
@@ -55,8 +56,9 @@ color: black;
 
 .behind{
   font-family: 'Lato';
-  font-size: 22px;
+  font-size: 18px;
   color: #C1BEBB;
+  margin-bottom: -5px;
 }
 
 .menu{
@@ -100,7 +102,7 @@ letter-spacing: 50;
   font-family: 'Oswald';
   margin-left: 300px;
   display: inline-block;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .secondary_div {
@@ -112,13 +114,14 @@ letter-spacing: 50;
 
 .third{
   font-family: 'Oswald';
-  margin-left: 450px;
   text-align: center;
   display: inline-block;
   font-size: 18px;
   margin-top: 620px;
   list-style-type: none;
   background-color: #FAFAFA;
+  height: 800px;
+  width: 1700px;
 }
 
 .div1pics {
@@ -136,6 +139,7 @@ letter-spacing: 50;
   margin-left: 10px;
   font-size: 18;
   font-family: 'Oswald';
+  height: 55px;
 }
 
 .div3pics {
