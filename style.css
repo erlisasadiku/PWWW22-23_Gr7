@@ -60,10 +60,26 @@ color: black;
 .watch{
   color:#C9A488;
   font-weight: 300;
-  margin-right: 225px;
+  display: inline-block;
 }
 .YT{
-  margin-right: 400px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.check{
+  color:#C9A488;
+  font-weight: 300;
+  display: inline-block;
+}
+.bestselling{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.price{
+  color:#C9A488;
+  line-height: 0px;
 }
 
 .behind{
@@ -71,6 +87,15 @@ color: black;
   font-size: 18px;
   color: #C1BEBB;
   margin-bottom: -5px;
+}
+.read{
+  color:#C9A488;
+  font-weight: 300;
+  display: inline-block;
+}
+.blog{
+  margin-left: 10px;
+  display: inline-block;
 }
 
 /*top navigator*/
@@ -135,7 +160,7 @@ letter-spacing: 50;
 .second {
   justify-content: center;
   align-items: center;
-  
+  background-color: white;
 }
 
 .div2pics {
@@ -149,23 +174,99 @@ letter-spacing: 50;
 
 .third{
   font-family: 'Oswald';
-  background-color: #FAFAFA;
   font-size: 18px;
-  margin-top: 250px;
-  
   text-align: center;
+  padding: 60px;
+
+  margin-top: 150px;
+  height: 100%;
+  background: linear-gradient(to left, #FAFAFA 50%, #FAFAFA 0); 
+  clip-path: polygon(50% 0%, 400% 50%, 50% 100%, -400% 50%);
 }
 
 .div3pics >* img{
-  padding: 10px;
+  padding: 6px;
   display: inline-block;
 }
 .div3pics :first-child img{     /* Me refenecu femijen e par, rreshtin e pare te fotove*/
-  width: 570px;
+  width: 550px;
 }
 .div3pics :last-child img{     /* Me refenecu femijen e fundit, rreshtin e dyte te fotove*/
-  width: 200px;
+  width: 360px;
 }
+
+/*the fourth part of the webpage*/
+
+.fourth{
+  font-family: 'Oswald';
+  background-color: white;
+  font-size: 18px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 60px;
+}
+
+.div4pics >* img{
+  border-style: solid;
+  border-color: #e6e2e2ed;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div4pics >* div{
+  display: inline-block;
+  padding: 5px;
+}
+.picrow >* div{ 
+  display: inline-block;
+}
+/*fifith part of the webpage*/
+.fifth{
+  position: relative;
+  font-family: 'Oswald';
+  font-size: 18px;
+  text-align: center;
+  padding: 60px;
+  margin-top: 50px;
+  background-color: #FAFAFA;
+  height: 390px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*the sixth part of the webpage*/
+
+.sixth{
+  font-family: 'Oswald';
+  background-color: white;
+  font-size: 18px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 60px;
+}
+.picsrow-6 :first-child{
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.div6pics >* img{
+  width: 300px;
+  display: inline-block;
+}
+.div6pics >* div{
+  display: inline-block;
+  padding: 5px;
+}
+.picrow >* div{ 
+  display: inline-block;
+}
+
 
 /*Buttons*/
 
@@ -181,10 +282,12 @@ button{
 .first button {
   width: 150px;
   margin-top: 15px;
+  background-color: #FAFAFA;
 }
 
 .second button {
   width: 115px;
+  background-color: white;
 }
 
 .third button {
@@ -193,8 +296,13 @@ button{
   font-size: 18;
   font-family: 'Oswald';
   height: 55px;
+  background-color: #FAFAFA;
 }
 
+.fourth button{  
+  background-color: white;
+  width: 200px;
+}
 /*Footer*/
 
 footer{
