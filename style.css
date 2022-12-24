@@ -309,3 +309,20 @@ footer{
   background-color: #FAFAFA;
   text-align: center;
 }
+#pp:hover{
+  box-shadow: 25px 25px 50px dimgrey;
+}
+#video1 :hover {
+  border-width: 24px;
+  border-style: ridge;
+  border-color: gray;
+  
+}
+.third img:hover {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
