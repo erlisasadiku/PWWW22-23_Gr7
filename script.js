@@ -42,3 +42,24 @@ featured.addEventListener("mouseout", function(e)
     caption.style.transition = "opacity 1.5s"
     caption.style.opacity = 0;
 });
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  const dateControl = document.querySelector('input[type="date"]');
+dateControl.value = 'Dec 21,2020';
+console.log(dateControl.value); // prints "2017-06-01"
+console.log(dateControl.valueAsNumber); // prints 1496275200000, a JavaScript timestamp (ms)

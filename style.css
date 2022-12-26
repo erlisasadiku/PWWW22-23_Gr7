@@ -19,6 +19,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 /* Change the text decoration and color when you hover */
@@ -128,7 +129,34 @@ letter-spacing: 50;
 .search{
   margin-top: 10px;
 }
+.sign{
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 250px;
+  font-size: 40px;
+  color:#C9A488;
+  font-weight: 300;
+  display: inline-block;
+}
+.get{
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: 250px;
+  font-size: 40px;
+  display: inline-block;
+}
 
+.check2{
+  font-size: 40px;
+  color:#C9A488;
+  font-weight: 300;
+  display: inline-block;
+}
+.insta2{
+  margin-left: 8px;
+  font-size: 40px;
+  display: inline-block;
+}
 /*the first part of the webpage*/
 
 .first {
@@ -158,7 +186,7 @@ letter-spacing: 50;
 /*the second part of the webpage*/
 
 .second {
-  justify-content: center;
+  
   align-items: center;
   background-color: white;
 }
@@ -223,7 +251,9 @@ letter-spacing: 50;
 .picrow >* div{ 
   display: inline-block;
 }
+
 /*fifith part of the webpage*/
+
 .fifth{
   position: relative;
   font-family: 'Oswald';
@@ -232,7 +262,11 @@ letter-spacing: 50;
   padding: 60px;
   margin-top: 50px;
   background-color: #FAFAFA;
-  height: 390px;
+  height: 330px;
+}
+.fifth img{
+  width: 100%;
+  height: auto;
 }
 .centered {
   position: absolute;
@@ -266,31 +300,147 @@ letter-spacing: 50;
 .picrow >* div{ 
   display: inline-block;
 }
+.picrow-6 >* div{
+  position: absolute;
+}
 
+input[type="date"]{
+  background-color: white;
+  font-family: "Roboto Mono",monospace;
+  color: #888888;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
 
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  position: absolute;
+  display: inline-block;
+}
+figcaption >*{
+  float: left;
+  color: #888888;
+}
+.sixth >* figcaption >img{
+  width: 16px;
+  padding-right: 5px;
+}
+
+/*the seventh part of the webpage*/
+
+.seventh{
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.input_div{
+  width: 450px;
+  text-align: center;
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 300px;
+  font-size: 40px;
+}
+
+.input_div >*{
+  
+  width: 450px;
+  height: 50px;
+  font-family: 'Oswald';
+  border-radius: 40px;
+  border: none;
+  margin-top: 20px;
+}
+
+/*the eighth part of the webpage*/
+
+.eighth{
+  margin-top: 900px;
+  text-align: center;
+}
+
+.eighth >*{
+  display: inline-block;
+  padding: 7px;
+}
+
+.container {
+  position: relative;
+  
+}
+
+.img1 {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .img {
+  opacity: 0.9;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.in_log {
+  width: 50px;
+}
 /*Buttons*/
 
-button{
+.first button {
   font-family: 'Oswald';
   font-size: 15px;
   height: 60px;
   border-radius: 40px;
   text-align: center;
   border: 2px solid #C9A488;
-}
-
-.first button {
   width: 150px;
   margin-top: 15px;
   background-color: #FAFAFA;
+
 }
 
 .second button {
+  font-family: 'Oswald';
+  font-size: 15px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  border: 2px solid #C9A488;
   width: 115px;
   background-color: white;
 }
 
 .third button {
+  font-family: 'Oswald';
+  font-size: 15px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  border: 2px solid #C9A488;
   width: 150px;
   margin-left: 10px;
   font-size: 18;
@@ -300,29 +450,54 @@ button{
 }
 
 .fourth button{  
+  font-family: 'Oswald';
+  font-size: 15px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  border: 2px solid #C9A488;
   background-color: white;
   width: 200px;
 }
+#more {display: none;}
+
+#myBtn{
+  display: inline-flex;
+  border: none;
+  color: #C9A488;
+  background-color: white;
+}
+.btn6{
+  font-family: 'Oswald';
+  font-size: 15px;
+  height: 60px;
+  border-radius: 40px;
+  text-align: center;
+  border: 2px solid #C9A488;
+  width: 200px;
+  background-color: white;
+}
+.seventh button{
+  font-family: 'Oswald';
+  font-size: 15px;
+  height: 60px;
+  border-radius: 40px;
+  color: #FAFAFA;
+  text-align: center;
+  border: 2px solid rgb(43, 43, 43);
+  background-color: rgb(43, 43, 43);
+  width: 150px;
+  margin-top: 40px;
+}
+:placeholder-shown{
+  color: #888888;
+  text-align: center;
+  font-size: 18px;
+}
 /*Footer*/
 
-footer{
+#footer{
   background-color: #FAFAFA;
   text-align: center;
-}
-#pp:hover{
-  box-shadow: 25px 25px 50px dimgrey;
-}
-#video1 :hover {
-  border-width: 24px;
-  border-style: ridge;
-  border-color: gray;
-  
-}
-.third img:hover {
-  transform: scale(1.1);
-  transition-duration: 300ms;
-  cursor: pointer;
-}
-html {
-  scroll-behavior: smooth;
+  width: 100%;
 }
